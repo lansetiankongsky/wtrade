@@ -14,6 +14,6 @@ def get_time():
     from datetime import datetime
     return {"current_time": datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
 
-# 启动应用11c 22
+# 启动应用11c 2233add
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=5000, debug=False) 
