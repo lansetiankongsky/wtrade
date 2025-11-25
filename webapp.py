@@ -6,7 +6,7 @@ app = Flask(__name__)
 # 定义一个“路由”：当用户访问 / 时，执行下面函数
 @app.route('/')
 def home():
-    return "🎉 欢迎来到我的 Flask 应用test3803！"
+    return "nihao,chenyuqing"
 
 # 再定义一个 API 接口
 @app.route('/time')
